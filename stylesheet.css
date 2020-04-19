@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  cursor:default;
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: 'HGP行書体', sans-serif;
+}
+
+h2{
+  font-size:80px;
+  padding-bottom: 15px;
+}
+
+h3{
+font-size: 50px;
+}
+
+h4{
+  font-size:45px;
+}
+
+h5 , .sita a , .menu h3{
+  font-size: 40px;
+}
+
+.ji{
+  font-size:30px;
+}
+
+.menu p , .food p{
+  font-size:35px;
+}
+
+span{
+  color:red;
+}
+
+header , .home , .concept , .time , .access , .sita ,
+footer , .osinagaki , .food , .drink , .corse
+{
+  width:100%;
+}
+
+.concept , .time , .access , .food , .drink , .corse , .menu
+{
+  height:100%;
+}
+
+header{
+  height:160px;
+  background-color: red;
+  color: white;
+  line-height: 2.0;
+}
+
+
+header span , header{
+  font-weight: bold;
+}
+
+header span{
+  position :fixed;
+  top: 0;
+  right:5px;
+  z-index: 15;
+  color:white;
+  font-size: 100px;
+}
+
+header p{
+  position :fixed;
+  top: 0;
+  right:5px;
+  z-index: 14;
+  color:red;
+  font-size: 100px;
+}
+
+strong{
+  font-size: 10px;
+  color: red;
+}
+
+.lo1{
+  position: absolute;
+  top:10px;
+}
+
+ .no{
+  display: none;
+}
+
+.home{
+  height: 680px;
+  background-image: url("写真/niku.jpg");
+  background-size: cover;
+}
+
+.home h3{
+  position: absolute;
+  top:250px;
+  left:60px;
+}
+
+.concept , .time , .access{
+  padding: 50px 0 50px 0;
+}
+
+.concept{
+  background-color: #fff5ee;
+}
+
+.moji{
+  line-height: 2.0;
+}
+
+.time{
+  background-color:#ffefd5;
+}
+
+.sai{
+  line-height: 1.7;
+}
+
+.access{
+  background-color: #fffaf0;
+}
+
+.access h5 , .access a , .map1 , .map2{
+  padding:15px 0 15px 0;
+}
+
+.sita{
+  position :fixed;
+  bottom: 0;
+  z-index: 10;
+  background-color: white;
+  text-align: center;
+  padding-bottom:12px;
+}
+
+.sita h3{
+  margin:12px 0 12px 0;
+}
+
+footer{
+  height:200px;
+  text-align: center;
+  background-color:black;
+  padding-top:25px;
+}
+
+.fa-facebook-f{
+  background-color: #2d2dcc;
+  padding:2px 4px 2px 16px;
+  border-radius:3px;
+}
+
+.fa-instagram{
+  background-color:#ff00ff;
+  opacity:0.9;
+  padding:2px 4px 4px 4px;
+  border-radius:6px;
+}
+
+.fa-facebook-f , .fa-instagram{
+  color:white;
+  margin-left:15px;
+  margin-top: -25px;
+}
+
+.menu span{
+  color:black;
+}
+
+.menu{
+  position :fixed;
+  top: 0;
+  right:0;
+  z-index: 11;
+  width:300px;
+  background-color: red;
+  opacity: 0.7;
+  padding: 10px;
+  line-height: 110px;
+  padding-top: 30px;
+}
+
+li{
+  list-style:none;
+}
+
+.osinagaki{
+  background-color: #f6bfbc;
+  padding-top:20px;
+  padding-bottom:200px;
+}
+
+.navi{
+  height:250px;
+  padding:15px 15px 20px 0 ;
+}
+
+.ta li{
+  margin:12px;
+  float:left;
+}
+
+.food{
+  margin:0 0 30px 0;
+}
+
+.haa{
+  margin:40px 0;
+}
+
+.list{
+  margin:10px 0;
+}
+
+.list h4{
+  margin:4px 10px ;
+}
+
+.drink , .corse{
+  margin:20px 0;
+}
+
+.corse h3{
+  margin:15px 0;
+}
+
+.corse li{
+  margin:10px;
+}
+
+.yakitori{
+  position :absolute;
+  top: 780px;
+  right:650px;
+}
+
+.sasami{
+  position :absolute;
+  top: 1680px;
+  right:510px;
+}
+
+.nasu{
+  position :absolute;
+  top: 3400px;
+  right:620px;
+}
+
+.be{
+  position :absolute;
+  top: 4700px;
+  right:450px;
+}
+
+.yuzu{
+  position :absolute;
+  top: 5750px;
+  right:550px;
+}
+
+.maru{
+  position :absolute;
+  top: 7650px;
+  right:200px;
+}
