@@ -81,4 +81,4 @@ $('.homeb').click(function(){
 
   });
 
-}(jQuery));
+})(jQuery);
