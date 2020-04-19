@@ -1,4 +1,4 @@
-$(function(){
+$(function($){
 $('#maa').hide();
 $('.osinagaki').hide();
 
@@ -79,4 +79,4 @@ $('.homeb').click(function(){
 });
 
 
-});
+}(jQuery));
