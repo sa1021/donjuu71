@@ -125,7 +125,7 @@
   header p{
     font-size: 60px;
       position :fixed;
-      top: -20px;
+      top: -15px;
       right:-5px;
   }
 
@@ -213,19 +213,19 @@
 
 .be2{
   position :absolute;
-  top: 3260px;
+  top: 3340px;
   right:20px;
 }
 
 .yuzu2{
   position :absolute;
-  top: 4080px;
+  top: 4180px;
   right:35px;
 }
 
 .maru2{
   position :absolute;
-  top: 5435px;
+  top: 5600px;
   right:5px;
 }
 
