@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'HGP行書体', sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
 h2{
@@ -56,15 +56,10 @@ header{
   line-height: 2.0;
 }
 
-
-header span , header{
-  font-weight: bold;
-}
-
 header span{
   position :fixed;
-  top: 0;
-  right:5px;
+  top: 0px;
+  right:10px;
   z-index: 15;
   color:white;
   font-size: 100px;
@@ -72,11 +67,11 @@ header span{
 
 header p{
   position :fixed;
-  top: 0;
-  right:5px;
+  top: -28px;
+  right:-14px;
   z-index: 14;
   color:red;
-  font-size: 100px;
+  font-size: 130px;
 }
 
 strong{
@@ -89,13 +84,13 @@ strong{
   top:10px;
 }
 
- .no{
+ .no , .chartwo , .charfour{
   display: none;
 }
 
 .home{
   height: 680px;
-  background-image: url("https://github.com/sa1021/donjuu71/blob/master/niku.jpg?raw=true");
+  background-image: url("写真/niku.jpg");
   background-size: cover;
 }
 
@@ -147,7 +142,7 @@ strong{
 }
 
 footer{
-  height:200px;
+  height:250px;
   text-align: center;
   background-color:black;
   padding-top:25px;
@@ -239,36 +234,36 @@ li{
 
 .yakitori{
   position :absolute;
-  top: 780px;
+  top: 830px;
   right:650px;
 }
 
 .sasami{
   position :absolute;
-  top: 1680px;
+  top: 2300px;
   right:510px;
 }
 
 .nasu{
   position :absolute;
-  top: 3400px;
+  top: 5000px;
   right:620px;
 }
 
 .be{
   position :absolute;
-  top: 4700px;
+  top: 6490px;
   right:450px;
 }
 
 .yuzu{
   position :absolute;
-  top: 5750px;
-  right:550px;
+  top: 8020px;
+  right:600px;
 }
 
 .maru{
   position :absolute;
-  top: 7650px;
+  top: 10700px;
   right:200px;
 }
