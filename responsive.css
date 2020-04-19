@@ -1,225 +1,232 @@
-/ *タブレット向けレイアウト* /
-@media all and（max-width：1000 px）{
-  H2  、。メニュー H3  、。sita  a {
-    font-size：35 px ;
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  h2 , .menu h3 , .sita a{
+    font-size:35px;
   }
 
-  H3  、。メニュー のp  、。食品 p {
-  font-size：30 px ;
+  h3 , .menu p , .food p{
+  font-size: 30px;
   }
 
-  H4  、。ji {
-    font-size：25 px ;
+  h4 , .ji{
+    font-size:25px;
   }
 
-  h5 {
-    font-size：20 px ;
+  h5{
+    font-size: 20px;
   }
 
-  。ホーム {
-    高さ：250 px ;
+  .home{
+    height: 250px;
   }
 
-  。ホーム h3 {
-    位置：絶対;
-    上：200 ピクセル ;
-    左：30 ピクセル ;
+  .home h3{
+    position: absolute;
+    top:200px;
+    left:30px;
   }
 
-  。おしながき {
-    padding-bottom：160 px ;
+  .osinagaki{
+    padding-bottom:160px;
   }
 
-  。ナビ {
-    高さ：165 px ;
+  .navi{
+    height:165px;
   }
 
-  。トーラス 、。なま 、。ベジ 、。にく 、。orignal  、。シーナ 、。米 、。砂漠 {
-    マージン：34 px  0 ;
+  .tori , .nama , .vege , .niku , .orignal , .sina , .rice , .desert{
+    margin:34px 0;
   }
 
-  。リスト {
-    マージン：8 px  0 ;
+  .list{
+    margin:8px 0;
   }
 
-  。リスト h4 {
-    マージン：3 px  9 px ;
+  .list h4{
+    margin:3px 9px ;
   }
 
-  。焼き鳥 、。那須 、。ささみ 、。こと 、。丸 、。ゆず {
-    表示：なし。
+  .yakitori , .nasu , .sasami , .be , .maru , .yuzu{
+    display: none;
   }
 
-  。yakitori2  、。nasu2  、 . sasami2  、 . BE2  、。maru2  、。yuzu2 {
-    表示：ブロック;
+  .yakitori2 , .nasu2 , .sasami2 , .be2 , .maru2 , .yuzu2{
+    display: block;
   }
 
-  。焼き鳥2 {
-    位置：絶対 ;
-    top：680px;
-    右：200px;
+  .yakitori2{
+    position :absolute;
+    top: 700px;
+    right:220px;
   }
 
-  。sasami2 {
-    位置：絶対 ;
-    top：1150px;
-    右：300px;
+  .sasami2{
+    position :absolute;
+    top: 1550px;
+    right:320px;
   }
 
-  。nasu2 {
-    位置：絶対 ;
-    top：2220px;
-    右：200px;
+  .nasu2{
+    position :absolute;
+    top: 3200px;
+    right:300px;
   }
 
-  。be2 {
-    位置：絶対 ;
-    top：2940px;
-    右：200px;
+  .be2{
+    position :absolute;
+    top: 4040px;
+    right:250px;
   }
 
-  。yuzu2 {
-    位置：絶対 ;
-    上：3630px;
-    右：270px;
+  .yuzu2{
+    position :absolute;
+    top: 4920px;
+    right:270px;
   }
 
-  。maru2 {
-    位置：絶対 ;
-    top：4750px;
-    右：50px;
+  .maru2{
+    position :absolute;
+    top: 6500px;
+    right:50px;
   }
 
 
 }
-/ *スマホ向けレイアウト* /
-@media all and（max-width：670 px）{
-  H2  、。メニュー H3  、。sita  a {
-    font-size：30 px ;
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  h2 , .sita a{
+    font-size:30px;
   }
 
-  H3  、。メニュー のp  、。食品 p {
-  font-size：25 px ;
+  h3 , .food p{
+  font-size: 25px;
   }
 
-  H4  、。ji {
-    font-size：20 px ;
+  h4 , .ji{
+    font-size:20px;
   }
 
-  h5 {
-    font-size：15 px ;
+  h5{
+    font-size: 15px;
   }
 
-  ヘッダー スパン 、 ヘッダー p {
-    font-size：50 px ;
+  header span  {
+    font-size: 40px;
   }
 
-  ヘッダー {
-    高さ：80 ピクセル ;
-  }
-
-  。はい {
-    表示：なし。
-  }
-
-  。いいえ {
-    表示：ブロック;
-  }
-
-  。lo2 {
-    位置：絶対;
-    top：-1px;
-  }
-
-  。ホーム {
-    高さ：160 ピクセル ;
-  }
-
-  。ホーム h3 {
-    位置：絶対;
-    上：110 ピクセル ;
-    左：20 ピクセル ;
-  }
-
-  。コンセプト {
-    高さ：370 px ;
-  }
-
-  。時間 {
-    高さ：240 ピクセル ;
-  }
-
-  。アクセス {
-    高さ：370 px ;
-  }
-
-  。メニュー {
-    幅：180 ピクセル ;
-    背景色：赤;
-    不透明度：0.7 ;
-    パディング：10 px ;
-    line-height：50 px ;
-    padding-top：25 px ;
-  }
-
-  フッター {
-    高さ：150 px ;
+.menu h3{
+  font-size:20px;
 }
 
-。おしながき {
-  padding-bottom：120 px ;
+.menu p{
+  font-size:15px;
 }
 
-。ナビ {
-  高さ：140 ピクセル ;
+  header p{
+    font-size: 60px;
+      position :fixed;
+      top: -20px;
+      right:-5px;
+  }
+
+  header{
+    height:80px;
+  }
+
+  .yes{
+    display: none;
+  }
+
+  .no{
+    display: block;
+  }
+
+  .lo2{
+    position: absolute;
+    top:-1px;
+  }
+
+  .home{
+    height: 160px;
+  }
+
+  .home h3{
+    position: absolute;
+    top:110px;
+    left:20px;
+  }
+
+  .concept , .time , .access{
+    height:100%;
+  }
+
+  .menu{
+    width:180px;
+    background-color: red;
+    opacity: 0.7;
+    padding: 10px;
+    line-height: 50px;
+    padding-top: 25px;
+  }
+
+  footer{
+    height:180px;
 }
 
-。トーラス 、。なま 、。ベジ 、。にく 、。orignal  、。シーナ 、。米 、。砂漠 {
-  マージン：25 px  0 ;
+.osinagaki{
+  padding-bottom:120px;
 }
 
-。リスト {
-  マージン：7 px  0 ;
+.tori , .nama , .vege , .niku , .orignal , .sina , .rice , .desert{
+  margin:25px 0;
 }
 
-。リスト h4 {
-  マージン：2 px  8 px ;
+.food{
+  padding-top:50px;
 }
 
-。焼き鳥2 {
-  位置：絶対 ;
-  top：520px;
-  右：70px;
+.list{
+  margin:7px 0;
 }
 
-。sasami2 {
-  位置：絶対 ;
-  top：880px;
-  右：50px;
+.list h4{
+  margin:2px 8px ;
 }
 
-。nasu2 {
-  位置：絶対 ;
-  top：1680px;
-  右：70px;
+.yakitori2{
+  position :absolute;
+  top: 620px;
+  right:50px;
 }
 
-。be2 {
-  位置：絶対 ;
-  top：2320px;
-  右：20px;
+.sasami2{
+  position :absolute;
+  top: 1270px;
+  right:70px;
 }
 
-。yuzu2 {
-  位置：絶対 ;
-  上：2910px;
-  右：35px;
+.nasu2{
+  position :absolute;
+  top: 2600px;
+  right:60px;
 }
 
-。maru2 {
-  位置：絶対 ;
-  top：3835px;
-  右：5px;
+.be2{
+  position :absolute;
+  top: 3260px;
+  right:20px;
+}
+
+.yuzu2{
+  position :absolute;
+  top: 4080px;
+  right:35px;
+}
+
+.maru2{
+  position :absolute;
+  top: 5435px;
+  right:5px;
 }
 
 
