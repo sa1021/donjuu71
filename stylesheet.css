@@ -90,7 +90,7 @@ strong{
 
 .home{
   height: 680px;
-  background-image: url("https://github.com/sa1021/donjuu71/blob/master/niku.jpg?raw=true");
+  background-image: url("写真/niku.jpg");
   background-size: cover;
 }
 
@@ -232,38 +232,11 @@ li{
   margin:10px;
 }
 
-.yakitori{
-  position :absolute;
-  top: 830px;
-  right:650px;
+.yakitori , .sasami , .nasu , .be , .yuzu , .maru{
+  float:right;
+  margin-right:50px;
 }
 
-.sasami{
-  position :absolute;
-  top: 2300px;
-  right:510px;
-}
-
-.nasu{
-  position :absolute;
-  top: 5000px;
-  right:620px;
-}
-
-.be{
-  position :absolute;
-  top: 6490px;
-  right:450px;
-}
-
-.yuzu{
-  position :absolute;
-  top: 8020px;
-  right:600px;
-}
-
-.maru{
-  position :absolute;
-  top: 10700px;
-  right:200px;
+.clear{
+  clear:right;
 }
