@@ -54,42 +54,15 @@
     display: block;
   }
 
-  .yakitori2{
-    position :absolute;
-    top: 700px;
-    right:220px;
-  }
-
-  .sasami2{
-    position :absolute;
-    top: 1550px;
-    right:320px;
-  }
-
-  .nasu2{
-    position :absolute;
-    top: 3200px;
-    right:300px;
-  }
-
-  .be2{
-    position :absolute;
-    top: 4040px;
-    right:250px;
-  }
-
-  .yuzu2{
-    position :absolute;
-    top: 4920px;
-    right:270px;
+  .yakitori2 , .sasami2 , .nasu2 , .be2 , .yuzu2{
+    float:right;
+    margin-right:200px;
   }
 
   .maru2{
-    position :absolute;
-    top: 6500px;
-    right:50px;
+    float:right;
+    margin-right:50px;
   }
-
 
 }
 /* スマホ向けレイアウト */
@@ -125,7 +98,7 @@
   header p{
     font-size: 60px;
       position :fixed;
-      top: -15px;
+      top: -20px;
       right:-5px;
   }
 
@@ -193,41 +166,17 @@
   margin:2px 8px ;
 }
 
-.yakitori2{
-  position :absolute;
-  top: 620px;
-  right:50px;
+.yakitori2 , .sasami2 , .nasu2 , .be2 , .yuzu2 , .maru2{
+  float:right;
+  margin-right:15px;
 }
 
-.sasami2{
-  position :absolute;
-  top: 1270px;
-  right:70px;
+.bear , .fruit{
+  margin:40px 0 0 0;
 }
 
-.nasu2{
-  position :absolute;
-  top: 2600px;
-  right:60px;
+.nihon , .tyu{
+  margin-top:0;
 }
-
-.be2{
-  position :absolute;
-  top: 3340px;
-  right:20px;
-}
-
-.yuzu2{
-  position :absolute;
-  top: 4180px;
-  right:35px;
-}
-
-.maru2{
-  position :absolute;
-  top: 5600px;
-  right:5px;
-}
-
 
 }
